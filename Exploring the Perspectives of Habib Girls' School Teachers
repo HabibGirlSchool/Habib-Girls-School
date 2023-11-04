@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>School Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #c60039;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #fff;
+            border-bottom: 2px solid #c60039;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #c60039;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .blog-post {
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .blog-post h2 {
+            color: #c60039;
+        }
+
+        footer {
+            background-color: #c60039;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>School Blog</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="blog-post">
+            <h2>Blog Post Title 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nisl nec ligula suscipit aliquam eu a felis.</p>
+        </div>
+
+        <div class="blog-post">
+            <h2>Blog Post Title 2</h2>
+            <p>Proin nec nunc nec urna accumsan dapibus id a velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed fermentum libero a elit bibendum.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 School Blog
+    </footer>
+</body>
+</html>
